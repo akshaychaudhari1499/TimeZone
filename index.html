@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="div-2">
+            <div id="heading">
+                <h1>TimeZone API</h1>
+            </div>
+            <div id="heading">
+                <h1>Your Current Timezone</h1>
+            </div>
+            <div id="list">
+                <ul id="timezone">
+                    <li id="NameTZ"></li>
+                    <li id="lat"></li>
+                    <li id="lon"></li>
+                    <li id="offsetSTD"></li>
+                    <li id="offsetSTDSeconds"></li>
+                    <li id="offsetDST"></li>
+                    <li id="offsetDSTSeconds"></li>
+                    <li id="country"></li>
+                    <li id="postcode"></li>
+                    <li id="city"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="div-1">
+            <div id="address">
+                <h1>Enter Address</h1>
+                </div><div><input type="text" id="Address" placeholder="GK , New Delhi">
+                    </div>
+                    <br><br>
+                <div><button type="button" id="submit" onclick="{showTimezone}">Submit</button></div>
+                <div><h1>Your Result</h1></div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="timezone.js"></script>
+</body>
+</html>

@@ -13,11 +13,9 @@ let city = document.getElementById('city');
 let lat = 0;
 let lon = 0;
 function getLocation() {
-  if (navigator.geolocation) {
+  
     navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    lat = 0;
-  }
+  
 }
 function showPosition(position) {
   lat = position.coords.latitude;
